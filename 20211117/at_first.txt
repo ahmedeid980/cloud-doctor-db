@@ -1,0 +1,7 @@
+CREATE USER 'cloud_doctor'@'localhost' IDENTIFIED BY 'p@ss_cloud_doctor_w0rd';
+
+CREATE DATABASE `cloud_doctor`;
+
+GRANT ALL PRIVILEGES ON `cloud_doctor` . * TO 'cloud_doctor'@'localhost';
+
+FLUSH PRIVILEGES;
